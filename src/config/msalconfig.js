@@ -3,22 +3,22 @@ import { PublicClientApplication } from "@azure/msal-browser";
 export const msalConfig = {
   // * Localhost URL for CCR app *
 
-  auth: {
-    clientId: "d3046566-fd05-4d73-a7d4-4c63b7105745",
-    authority: "https://login.microsoftonline.com/common", // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
-    redirectUri: "http://localhost:3000/",
-    // redirectUri: "http://rise-qube-cc.s3-website-us-east-1.amazonaws.com/", // server url
-    // redirectUri: "https://formbuilder.gti-data.com/",
-  },
+  // auth: {
+  //   clientId: "d3046566-fd05-4d73-a7d4-4c63b7105745",
+  //   authority: "https://login.microsoftonline.com/common", // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
+  //   redirectUri: "http://localhost:3000/",
+  //   // redirectUri: "http://rise-qube-cc.s3-website-us-east-1.amazonaws.com/", // server url
+  //   // redirectUri: "https://formbuilder.gti-data.com/",
+  // },
   
   // * Dev URL for CCR app *
 
-  // auth: {
-  //   clientId: "18dcfccf-a3b1-48a0-8990-6d7fb7563c38",
-  //   authority: "https://login.microsoftonline.com/080c6c8e-bced-4e09-b5c3-6e55cbd80da4", // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
-  //   redirectUri: "https://dev.bi.gti-data.com/",
-  //   // redirectUri: "https://formbuilder.gti-data.com/",
-  // },
+  auth: {
+    clientId: "18dcfccf-a3b1-48a0-8990-6d7fb7563c38",
+    authority: "https://login.microsoftonline.com/080c6c8e-bced-4e09-b5c3-6e55cbd80da4", // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
+    redirectUri: "https://dev.bi.gti-data.com/",
+    // redirectUri: "https://formbuilder.gti-data.com/",
+  },
 
   // // * Production URL *
 
