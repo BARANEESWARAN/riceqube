@@ -1,0 +1,15 @@
+.login-template_container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Auto, 1 fraction, Auto */
+  }
+  
+  .main-content {
+    grid-row: 2; /* Occupy the second row */
+  }
+  
+  .footer {
+    grid-row: 3; /* Occupy the third row */
+  }
+  

@@ -1,0 +1,20 @@
+.homepage-template {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color:  #f2f2f2 !important;
+  }
+  
+  .Header {
+    align-self: flex-start; /* Align header to the top */
+  }
+  
+  main {
+    margin-bottom: auto; /* Push main content to the top of the header */
+  }
+  
+  .Footer {
+    align-self: flex-end; /* Align footer to the bottom */
+  }
+  
